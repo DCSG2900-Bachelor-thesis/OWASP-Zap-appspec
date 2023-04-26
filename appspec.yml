@@ -5,6 +5,6 @@ files:
     destination : /home
 hooks:
   ApplicationStart:
-  - location: scripts/install.sh
+  - location: /install.sh
     runas: root
     timeout: 300
